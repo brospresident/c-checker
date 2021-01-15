@@ -2,8 +2,8 @@ name: syntax
 on: push
 jobs:
     task1:
-    runs-on: ubuntu-latest
-    steps:
-        - run: echo Checker-c works
-        - run: echo Made by Andrei Radu
-        - run: gcc src/add.c
+        runs-on: ubuntu-latest
+        steps:
+            - run: echo Checker-c works
+            - run: echo Made by Andrei Radu
+            - run: gcc src/add.c
